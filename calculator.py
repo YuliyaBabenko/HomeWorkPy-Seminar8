@@ -23,4 +23,4 @@ calc = input('Введите выражение для вычисления: ')
  
 calc = calc.replace("^", "**")
  
-print(eval(calc))
+print(f'Ваш результат: {eval(calc)}')
